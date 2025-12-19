@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Ti ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>❤️ Para alguien especial ❤️</h1>
+  <p>Mientras estés aquí, quiero saber dónde estás…</p>
+
+  <button onclick="iniciarUbicacion()">Compartir mi ubicación</button>
+
+  <div id="ubicacion">
+    <p><strong>Latitud:</strong> <span id="lat">--</span></p>
+    <p><strong>Longitud:</strong> <span id="lon">--</span></p>
+    <p><strong>Precisión:</strong> <span id="acc">--</span> metros</p>
+  </div>
+
+  <a id="mapa" target="_blank" style="display:none;">Ver en Google Maps</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
